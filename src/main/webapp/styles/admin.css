@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+   	min-height: 100vh;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+nav.nav-main {
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 53%, rgba(0,212,255,1) 100%); /* Green background */
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav.nav-main h1 {
+    margin: 0;
+    color:white;
+}
+
+.submit , button {
+    padding: 8px 16px;
+    background-color: #45a049;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.admin-main {
+    margin: 20px;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+    padding: 10px; /* Optional padding for spacing */
+}
+
+.admin-create {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.admin-create:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+/* Form Styles */
+.admin-form {
+	position:relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-width:600px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-top:20px;
+    margin-bottom: 70px;
+    
+}
+
+
+.admin-form div {
+    margin-bottom: 15px;
+}
+
+.admin-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.admin-form input[type="text"],
+.admin-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.admin-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.admin-form div.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between radio buttons */
+}
+
+.admin-form input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and label */
+}
+
+.admin-form label[for^="level"] {
+    display: inline-block;
+    margin: 0;
+}
+
+
+.admin-form input[type="submit"],
+.admin-form button {
+    margin-top: 10px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: scroll;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Footer Styles */
+footer {
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 53%, rgba(0,212,255,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+}

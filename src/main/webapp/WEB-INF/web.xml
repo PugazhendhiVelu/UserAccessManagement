@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:javaee="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+	<display-name>User Access Management</display-name>
+
+	<!-- Servlet Definition -->
+	<servlet>
+		<servlet-name>SignUpServlet</servlet-name>
+		<servlet-class>com.user.web.controller.SignUpServlet</servlet-class>
+	</servlet>
+
+
+	<!-- Servlet Mapping -->
+	<servlet-mapping>
+		<servlet-name>SignUpServlet</servlet-name>
+		<url-pattern>/registerServlet</url-pattern>
+	</servlet-mapping>
+
+	<!-- You can add more servlets here as needed -->
+</web-app>
+
+</element>
