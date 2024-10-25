@@ -11,8 +11,7 @@ The User Access Management System is a web-based application designed to streaml
 - [System Roles](#system-roles)
 - [Database Schema](#database-schema)
 - [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Evaluation Criteria](#evaluation-criteria)
+- [Demo](#demo)
 
 ## Introduction
 
