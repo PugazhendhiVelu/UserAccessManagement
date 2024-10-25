@@ -102,12 +102,9 @@ The PostgreSQL database schema consists of three tables:
 
 5.Run the Application
 
-
+## Demo
 [![Demo Video](https://img.shields.io/badge/Watch-Demo%20Video-blue)](https://drive.google.com/file/d/1geMZWl3JY-joacrieD-KH12L9PRGdypl/view?usp=sharing)
 
-## Demo
-
-Watch the [Demo Video](https://drive.google.com/file/d/1geMZWl3JY-joacrieD-KH12L9PRGdypl/view?usp=sharing) to see the application in action.
 
 
 
